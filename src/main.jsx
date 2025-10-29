@@ -8,14 +8,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
-```
-```
-4. Commit changes
-```
-
----
-
-#### **File 5: src/index.css** (Create if missing)
-```
-1. In src folder, create: index.css
-2. Paste:
