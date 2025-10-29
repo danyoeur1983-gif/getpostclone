@@ -1,28 +1,22 @@
-import Hero from '../components/landing/hero'
-import Features from '../components/landing/Features'
-import Pricing from '../components/landing/Pricing'
-import FAQ from '../components/landing/FAQ'
+import Hero from '../components/Hero'
+import Features from '../components/Features'
+import Pricing from '../components/Pricing'
+import FAQ from '../components/FAQ'
 
 export default function Landing() {
   return (
     <div className="min-h-screen">
-      {/* Navigation */}
       <nav className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex justify-between items-center">
-            {/* Logo */}
             <div className="flex items-center">
               <span className="text-2xl font-bold text-blue-600">PostClone</span>
             </div>
-            
-            {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
               <a href="#features" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Features</a>
               <a href="#pricing" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Pricing</a>
               <a href="#faq" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">FAQ</a>
             </div>
-            
-            {/* Sign In Button */}
             <div>
               <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg">
                 Sign In
@@ -32,26 +26,20 @@ export default function Landing() {
         </div>
       </nav>
 
-      {/* Main Content */}
       <Hero />
-      
       <div id="features">
         <Features />
       </div>
-      
       <div id="pricing">
         <Pricing />
       </div>
-      
       <div id="faq">
         <FAQ />
       </div>
 
-      {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
-            {/* Brand */}
             <div className="md:col-span-2">
               <h3 className="text-2xl font-bold mb-4">PostClone</h3>
               <p className="text-gray-400 mb-4">
@@ -61,8 +49,6 @@ export default function Landing() {
                 © 2025 PostClone. All rights reserved.
               </p>
             </div>
-            
-            {/* Product Links */}
             <div>
               <h4 className="font-semibold mb-4 text-lg">Product</h4>
               <ul className="space-y-2 text-gray-400">
@@ -71,8 +57,6 @@ export default function Landing() {
                 <li><a href="#faq" className="hover:text-white transition-colors">FAQ</a></li>
               </ul>
             </div>
-            
-            {/* Company Links */}
             <div>
               <h4 className="font-semibold mb-4 text-lg">Company</h4>
               <ul className="space-y-2 text-gray-400">
@@ -83,8 +67,6 @@ export default function Landing() {
               </ul>
             </div>
           </div>
-          
-          {/* Bottom Bar */}
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400 text-sm">
               Made with ❤️ for LinkedIn creators who want to stop guessing
