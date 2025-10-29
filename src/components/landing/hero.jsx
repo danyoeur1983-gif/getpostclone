@@ -1,4 +1,3 @@
-
 import { useState } from 'react'
 import Button from '../ui/Button'
 
@@ -96,6 +95,3 @@ export default function Hero() {
     </div>
   )
 }
-```
-```
-4. Commit
